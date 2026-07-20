@@ -8,7 +8,7 @@ load_dotenv()
 
 class LLM:
     """
-    A reusable interface for interacting with an LLM provider.
+    A reusable interface for interacting with an LLM provider with added support for Streaming
     """
 
     def __init__(
